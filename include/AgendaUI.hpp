@@ -103,6 +103,9 @@ class AgendaUI {
      */
     void printMeetings(std::list<Meeting> t_meetings);
     // dates
+
+    void resetPassword(void);
+    
     std::string m_userName;
     std::string m_userPassword;
     AgendaService m_agendaService;
